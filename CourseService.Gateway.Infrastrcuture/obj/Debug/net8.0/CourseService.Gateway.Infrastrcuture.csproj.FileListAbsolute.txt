@@ -1,0 +1,15 @@
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\bin\Debug\net8.0\CourseService.Gateway.Infrastrcuture.deps.json
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\bin\Debug\net8.0\CourseService.Gateway.Infrastrcuture.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\bin\Debug\net8.0\CourseService.Gateway.Infrastrcuture.pdb
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\bin\Debug\net8.0\CourseService.Gateway.BLL.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\bin\Debug\net8.0\CourseService.Gateway.BLL.pdb
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.csproj.AssemblyReference.cache
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.AssemblyInfoInputs.cache
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.AssemblyInfo.cs
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.csproj.CoreCompileInputs.cache
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseSe.AE09EF6E.Up2Date
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\refint\CourseService.Gateway.Infrastrcuture.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\CourseService.Gateway.Infrastrcuture.pdb
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.Infrastrcuture\obj\Debug\net8.0\ref\CourseService.Gateway.Infrastrcuture.dll

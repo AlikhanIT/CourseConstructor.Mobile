@@ -1,0 +1,12 @@
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\bin\Debug\net8.0\CourseService.Gateway.BLL.deps.json
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\bin\Debug\net8.0\CourseService.Gateway.BLL.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\bin\Debug\net8.0\CourseService.Gateway.BLL.pdb
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.AssemblyInfoInputs.cache
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.AssemblyInfo.cs
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.csproj.CoreCompileInputs.cache
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\refint\CourseService.Gateway.BLL.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.pdb
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\ref\CourseService.Gateway.BLL.dll
+C:\Users\almor\RiderProjects\CourseConstructors.Gateway\CourseService.Gateway\CourseService.Gateway.BLL\obj\Debug\net8.0\CourseService.Gateway.BLL.csproj.AssemblyReference.cache

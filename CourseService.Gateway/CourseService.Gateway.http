@@ -1,0 +1,6 @@
+@CourseService.Gateway_HostAddress = http://localhost:5284
+
+GET {{CourseService.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

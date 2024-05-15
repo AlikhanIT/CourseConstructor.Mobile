@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CourseService.Gateway.API.props" />
+</Project>
