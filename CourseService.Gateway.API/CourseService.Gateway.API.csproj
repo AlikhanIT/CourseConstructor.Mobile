@@ -30,8 +30,4 @@
       <ProjectReference Include="..\CourseService.Gateway.Infrastrcuture\CourseService.Gateway.Infrastrcuture.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Common\" />
-    </ItemGroup>
-
 </Project>

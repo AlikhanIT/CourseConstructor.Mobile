@@ -30,4 +30,8 @@ public class UserService : IUserService
     {
         return await _userClient.ValidateUser(accessToken);
     }
+    public async Task<User> GetUserInfo(string accessToken)
+    {
+        return await _userClient.GetUserInfo(accessToken);
+    }
 }

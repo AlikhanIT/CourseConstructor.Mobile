@@ -1,4 +1,6 @@
-﻿using CourseService.Gateway.BLL.Interfaces.Services;
+﻿using System.Text;
+using CourseService.Gateway.BLL.Interfaces.Services;
+using CourseService.Gateway.BLL.Models.Requests;
 using CourseService.Gateway.BLL.Models.Responses;
 using CourseService.Gateway.BLL.Options;
 using Microsoft.Extensions.Options;
@@ -64,5 +66,37 @@ public class CourseClient : ICourseClient
     public Task<CourseUser> AddCourseToUser(Guid userId, Guid courseId) => PostAsync<CourseUser>(_options.AddCourseToUserEndpoint.Replace("{userId}", userId.ToString()).Replace("{courseId}", courseId.ToString()));
     public Task<IEnumerable<Course>> GetCoursesByUser(Guid userId) => GetAsync<IEnumerable<Course>>(_options.GetCoursesByUserEndpoint.Replace("{userId}", userId.ToString()));
     public Task<Course> GetCourseById(Guid id) => GetAsync<Course>(_options.GetCourseByIdEndpoint.Replace("{id}", id.ToString()));
+    
+    public async Task<Course> UpdateCourse(UpdateCourseToUserCommand req)
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(req), Encoding.UTF8, "application/json");
 
+        return await PostAsync<Course>(_options.UpdateCourseEndpoint, content);
+    }
+    public async Task<Lesson> AddLesson(AddLessonToCourseCommand req)
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(req), Encoding.UTF8, "application/json");
+
+        return await PostAsync<Lesson>(_options.AddLessonEndpoint, content);
+    }
+    public async Task<Lesson> UpdateLesson(UpdateLessonCommand req)
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(req), Encoding.UTF8, "application/json");
+
+        return await PostAsync<Lesson>(_options.UpdateLessonEndpoint, content);
+    }
+    public Task<List<ContentItem>> GetAllContentItems(Guid lessonId) => GetAsync<List<ContentItem>>(_options.GetAllContentItemsEndpoint.Replace("{lessonId}", lessonId.ToString()));
+    public async Task<ContentItem> AddContentToLesson(AddContentToLessonCommand req) 
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(req), Encoding.UTF8, "application/json");
+
+        return await PostAsync<ContentItem>(_options.AddContentToLessonEndpoint, content);
+    }
+    public Task<List<Lesson>> GetAllLessons(Guid id) => GetAsync<List<Lesson>>(_options.GetAllLessonsEndpoint.Replace("{courseId}", id.ToString()));
+    public async Task<ContentItem> UpdateContentItem(UpdateContentItemCommand req)
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(req), Encoding.UTF8, "application/json");
+
+        return await PostAsync<ContentItem>(_options.UpdateContentItemEndpoint, content);
+    }
 }

@@ -8,4 +8,5 @@ public class UserServiceOptions
     public string AuthenticateEndpoint { get; set; }
     public string RefreshEndpoint { get; set; }
     public string ValidateEndpoint { get; set; }
+    public string GetInfoEndpoint { get; set; }
 }

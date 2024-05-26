@@ -83,4 +83,8 @@ public class UserClient : IUserClient
     {
         return await GetAsync<bool>(_options.AuthenticateEndpoint.Replace("{accessToken}", accessToken));
     }
+    public async Task<User> GetUserInfo(string accessToken)
+    {
+        return await GetAsync<User>(_options.GetInfoEndpoint.Replace("{accessToken}", accessToken));
+    }
 }

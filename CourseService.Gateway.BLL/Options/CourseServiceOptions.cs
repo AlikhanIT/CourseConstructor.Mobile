@@ -13,4 +13,11 @@ public class CourseServiceOptions
     public string AddCourseToUserEndpoint { get; set; }
     public string GetCoursesByUserEndpoint { get; set; }
     public string GetCourseByIdEndpoint { get; set; }
+    public string UpdateCourseEndpoint { get; set; }
+    public string AddLessonEndpoint { get; set; }
+    public string UpdateLessonEndpoint { get; set; }
+    public string GetAllContentItemsEndpoint { get; set; }
+    public string GetAllLessonsEndpoint { get; set; }
+    public string AddContentToLessonEndpoint { get; set; }
+    public string UpdateContentItemEndpoint { get; set; }
 }

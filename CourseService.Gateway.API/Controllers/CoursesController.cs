@@ -1,4 +1,5 @@
 ﻿using CourseService.Gateway.BLL.Interfaces.Services;
+using CourseService.Gateway.BLL.Models.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CourseService.Gateway.API.Controllers;
@@ -50,12 +51,12 @@ public class CoursesController : ControllerBase
         return Ok();
     }
 
-    // [HttpGet("all-courses")]
-    // public async Task<IActionResult> ListAllCourses()
-    // {
-    //     var result = await _courseService.ListAllCourses();
-    //     return Ok(result);
-    // }
+    [HttpGet("all-courses")]
+    public async Task<IActionResult> ListAllCourses()
+    {
+        var result = await _courseService.ListAllCourses();
+        return Ok(result);
+    }
 
     [HttpPost("add-course/{userId}/{courseId}")]
     public async Task<IActionResult> AssignCourseToUser(Guid userId, Guid courseId)
@@ -75,6 +76,41 @@ public class CoursesController : ControllerBase
     public async Task<IActionResult> GetCourseDetails(Guid id)
     {
         var result = await _courseService.GetCourseDetails(id);
+        return Ok(result);
+    }
+    
+    [HttpPut("UpdateLesson")]
+    public async Task<IActionResult> UpdateLesson([FromBody] UpdateLessonCommand command)
+    {
+        var result = await _courseService.UpdateLesson(command);
+        return Ok(result);
+    }
+
+    [HttpGet("GetAllContentItems/{lessonId}")]
+    public async Task<IActionResult> GetAllContentItems(Guid lessonId)
+    {
+        var result = await _courseService.GetAllContentItems(lessonId);
+        return Ok(result);
+    }
+
+    [HttpPost("AddContentToLesson")]
+    public async Task<IActionResult> AddContentToLesson([FromBody] AddContentToLessonCommand command)
+    {
+        var result = await _courseService.AddContentToLesson(command);
+        return Ok(result);
+    }
+
+    [HttpGet("GetAllLessons/{id}")]
+    public async Task<IActionResult> GetAllLessons(Guid id)
+    {
+        var result = await _courseService.GetAllLessons(id);
+        return Ok(result);
+    }
+
+    [HttpPut("UpdateContentItem")]
+    public async Task<IActionResult> UpdateContentItem([FromBody] UpdateContentItemCommand command)
+    {
+        var result = await _courseService.UpdateContentItem(command);
         return Ok(result);
     }
 }

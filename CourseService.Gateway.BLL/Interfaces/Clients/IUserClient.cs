@@ -9,5 +9,6 @@ public interface IUserClient
     Task<JwtToken> AuthenticateUser(string username, string password);
     Task<JwtToken> RefreshUser(Guid userId, string refreshToken);
     Task<bool> ValidateUser(string accessToken);
+    Task<User> GetUserInfo(string accessToken);
 }
 
